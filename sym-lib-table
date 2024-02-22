@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name SIM7080-rescue)(type Legacy)(uri ${KIPRJMOD}/SIM7080-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "SIM7080-rescue")(type "KiCad")(uri "${KIPRJMOD}/SIM7080-rescue.kicad_sym")(options "")(descr ""))
 )

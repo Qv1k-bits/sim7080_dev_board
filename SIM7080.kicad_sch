@@ -1,0 +1,57 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 8ece49bb-ef40-469d-b41a-32ddb2f325f0)
+
+  (paper "A4")
+
+  (title_block
+    (title "TechStudio.Design SIM7080G NB-IoT Shield")
+    (date "2021-08-25")
+    (rev "V1.2")
+    (company "www.techstudio.design")
+    (comment 3 "Copyright: Tech Studio Design, 2021")
+    (comment 4 "Designed By: Henry Cheung")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 58.42 36.83) (size 114.3 48.26) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060d8f2e2)
+    (property "Sheetname" "SIM7080_module" (at 58.42 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SIM7080_module.kicad_sch" (at 58.42 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SIM7080"
+        (path "/8ece49bb-ef40-469d-b41a-32ddb2f325f0" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 58.42 102.87) (size 114.3 45.72) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000060dcdeb3)
+    (property "Sheetname" "SIM7080_peripherals" (at 58.42 102.1584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SIM7080_peripherals.kicad_sch" (at 58.42 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SIM7080"
+        (path "/8ece49bb-ef40-469d-b41a-32ddb2f325f0" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
